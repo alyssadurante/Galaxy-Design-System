@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
 
 export const baseStyles = css`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+  @import url(''https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'');
   @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
   * {
     margin: 0;
@@ -24,10 +24,7 @@ export const baseStyles = css`
   }
   html,
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Roboto Light', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif,
-      'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     scroll-behavior: smooth;
   }
@@ -38,7 +35,7 @@ export const baseStyles = css`
   }
 
   body {
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
   }
   .visibleMobile {
     display: none;
@@ -86,7 +83,7 @@ export const baseStyles = css`
     width: 100%;
     height: 100%;
   }
-
+  
   .diffNewLine {
     color: #22863a;
     background-color: #f0fff4;
@@ -134,7 +131,7 @@ export const baseStyles = css`
 
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
-    background-color: #001933;
+    background-color: #0080FF;
   }
 
   .headerWrapper {
@@ -244,7 +241,7 @@ export const baseStyles = css`
   }
 
   .logoContent {
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     margin-left: 16px;
     font-size: 28px;
     line-height: 1.5;
@@ -257,7 +254,7 @@ export const baseStyles = css`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #001934;
+    background-color: #1F2937;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -297,7 +294,7 @@ export const baseStyles = css`
     -webkit-overflow-scrolling: touch;
   }
   .navBarUL li a {
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     color: #fff !important;
     font-size: 16px;
     font-weight: 500;
@@ -396,9 +393,9 @@ export const baseStyles = css`
   }
 
   .headerNav {
-    font-family: 'Roboto';
+    font-family: 'Inter', sans-serif;
     padding: 0px 24px;
-    color: #001933;
+    color: #0080FF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1em;
@@ -450,8 +447,8 @@ export const baseStyles = css`
   }
 
   .hideFrontLine .active > a {
-    background-color: #1ed3c6;
-    color: #fff !important;
+    background-color: #E5E7EB;
+    color: #374151 !important;
   }
   .firstLevel ul li .collapser svg path {
     fill: #fff !important;
@@ -470,7 +467,7 @@ export const baseStyles = css`
   }
 
   .sideBarUL .item > a {
-    color: #1ED3C6;
+    color: #E5E7EB;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -481,12 +478,12 @@ export const baseStyles = css`
   }
 
   .showFrontLine .item > a:hover {
-    background-color: #001933;
+    background-color: #E5E7EB;
   }
 
   .showFrontLine .active > a {
     /* color: #fff; */
-    background-color: #001933;
+    background-color: #E5E7EB;
   }
 
   .sideBarUL .item .item {
@@ -508,7 +505,7 @@ export const baseStyles = css`
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
     border-width: 1px 0px 1px 1px;
-    background-color: #1ed3c6 !important;
+    background-color: #E5E7EB !important;
     color: #fff;
   }
 

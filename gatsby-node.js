@@ -105,5 +105,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       node,
       value: node.frontmatter.title || startCase(parent.name),
     });
+
+
+    createNodeField({
+      name: 'subtitle',
+      node,
+      value: node.frontmatter.subtitle || startCase(parent.name),
+    });
   }
 };

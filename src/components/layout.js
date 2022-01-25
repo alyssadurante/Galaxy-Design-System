@@ -32,7 +32,7 @@ const Wrapper = styled('div')`
 const Content = styled('main')`
   display: flex;
   flex-grow: 1;
-  margin: 0px 88px;
+  margin: 0px 80px;
   padding-top: 3rem;
   background: ${({ theme }) => theme.colors.background};
 
@@ -62,7 +62,10 @@ const RightSideBarWidth = styled('div')`
   width: 224px;
 `;
 
-const Layout = ({ children, location }) => (
+const Title = styled('div')`
+width:100px`;
+
+const Layout = ({ children, location, title }) => (
   <ThemeProvider location={location}>
     <MDXProvider components={mdxComponents}>
       <Wrapper>

@@ -18,7 +18,7 @@ const ListItem = styled(({ className, active, level, ...props }) => {
   list-style: none;
 
   a {
-    color: #5c6975;
+    color: #374151;
     text-decoration: none;
     font-weight: ${({ level }) => (level === 0 ? 700 : 400)};
     padding: 0.45rem 0 0.45rem ${(props) => 2 + (props.level || 0) * 1}rem;
@@ -26,7 +26,7 @@ const ListItem = styled(({ className, active, level, ...props }) => {
     position: relative;
 
     &:hover {
-      color: #1ed3c6 !important;
+      color: #111827 !important;
     }
 
     ${(props) =>
@@ -109,12 +109,14 @@ const SidebarLayout = ({ location }) => (
     render={({ allMdx }) => {
       return (
         <Sidebar>
+          {/*** 
           {config.sidebar.title ? (
             <div
               className={'sidebarTitle hiddenMobile'}
               dangerouslySetInnerHTML={{ __html: config.sidebar.title }}
             />
           ) : null}
+          */}
           <ul className={'sideBarUL'}>
             <Tree edges={allMdx.edges} />
             {config.sidebar.links && config.sidebar.links.length > 0 && <Divider />}
