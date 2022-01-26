@@ -19,10 +19,10 @@ The accordion component delivers large amounts of content in a small space throu
 ### Anatomy
 <img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643157199/Accordion_Anatomy_-_Open_nzy6tc.svg"></img>
 
-1. <strong>Header</strong>: contains the section title and is control for revealing the panel
-2. <strong>Subtitle</strong>: a description of what that specific accordion section does (optional)
-3. <strong>Icon</strong>: indicates if the panel is open or closed
-4. <strong>Panel</strong>: the section of content associated with an accordion header.
+- <strong>1. Header</strong>: contains the section title and is control for revealing the panel
+- <strong>2. Subtitle</strong>: a description of what that specific accordion section does (optional)
+- <strong>3. Icon</strong>: indicates if the panel is open or closed
+- <strong>4. Panel</strong>: the section of content associated with an accordion header.
 
 ### Placement
 

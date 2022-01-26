@@ -56,6 +56,9 @@ export const baseStyles = css`
   a:hover {
     text-decoration: none;
   }
+  menu, ol, ul {
+    list-style: disc !important;
+  }
   .displayInline {
     display: inline-block;
   }
@@ -453,16 +456,17 @@ export const baseStyles = css`
   .hideFrontLine .active > a {
     background-color: #E5E7EB;
     color: #374151 !important;
+    font-weight: 600;
   }
   .firstLevel ul li .collapser svg path {
-    fill: #fff !important;
+    fill: #4B5563 !important;
   }
   .active .collapser > svg > path {
     fill: #001933 !important;
   }
 
   .firstLevel ul .item ul .item {
-    border-left: 1px solid #e6ecf1;
+    border-left: 1px solid #0080FF;
   }
 
   .sideBarUL .item {
@@ -471,7 +475,7 @@ export const baseStyles = css`
   }
 
   .sideBarUL .item > a {
-    color: #E5E7EB;
+    color: #111827;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -482,6 +486,7 @@ export const baseStyles = css`
   }
 
   .showFrontLine .item > a:hover {
+    color: #111827 !important;
     background-color: #E5E7EB;
   }
 
@@ -489,7 +494,10 @@ export const baseStyles = css`
     /* color: #fff; */
     background-color: #E5E7EB;
   }
-
+  .sideBarUL li a:hover {
+    color: #111827 !important;
+    background-color: transparent !important;
+  }
   .sideBarUL .item .item {
     margin-left: 16px;
   }
@@ -686,7 +694,7 @@ export const baseStyles = css`
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: 16px;
-    margin-top: 32px;
+    margin-top: 22px;
   }
 
   .heading4 {
