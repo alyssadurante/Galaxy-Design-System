@@ -12,9 +12,11 @@ export const StyledHeading = styled('h1')`
   color: ${props => props.theme.colors.heading};
 `;
 
-export const StyledSubtitle = styled('h4')`
-  font-size: 24px;
-  padding-top: 10px;
+export const StyledSubtitle = styled('h6')`
+  font-size: 18px;
+  padding-top: 20px;
+  font-weight: 300;
+  color: #6B7280;
 `
 
 export const Edit = styled('div')`
@@ -52,7 +54,7 @@ export const StyledMainWrapper = styled.div`
     -webkit-padding-start: 40px;
     -moz-padding-start: 40px;
     -o-padding-start: 40px;
-    margin: 24px 0px;
+    margin: 14px 0px;
     padding: 0px 0px 0px 2em;
 
     li {

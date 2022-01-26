@@ -62,10 +62,7 @@ const RightSideBarWidth = styled('div')`
   width: 224px;
 `;
 
-const Title = styled('div')`
-width:100px`;
-
-const Layout = ({ children, location, title }) => (
+const Layout = ({ children, location }) => (
   <ThemeProvider location={location}>
     <MDXProvider components={mdxComponents}>
       <Wrapper>

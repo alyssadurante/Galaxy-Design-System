@@ -28,12 +28,15 @@ export const baseStyles = css`
     font-size: 16px;
     scroll-behavior: smooth;
   }
-
   a {
     transition: color 0.15s;
     /* color: #663399; */
   }
-
+  .preview {
+    background-color: #ffff;
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
   body {
     font-family: 'Inter', sans-serif;
   }
@@ -315,7 +318,8 @@ export const baseStyles = css`
   }
   pre {
     border: 0 !important;
-    background-color: rgb(245, 247, 249); /* !important; */
+    background-color: #1f2937; /* !important; */
+    width: 130%;
   }
 
   blockquote {
@@ -511,7 +515,8 @@ export const baseStyles = css`
 
   .titleWrapper {
     display: flex;
-    align-items: center;
+    align-items: start;
+    flex-direction: column;
     padding-bottom: 40px;
     border-bottom: 1px solid rgb(230, 236, 241);
     margin-bottom: 32px;
@@ -689,7 +694,7 @@ export const baseStyles = css`
     font-weight: 500;
     line-height: 1.5;
     margin-bottom: 16px;
-    margin-top: 32px;
+    margin-top: 14px;
   }
 
   .heading5 {
@@ -709,7 +714,7 @@ export const baseStyles = css`
   }
 
   .paragraph {
-    margin: 16px 0px 32px;
+    margin: 16px 0px 16px;
     line-height: 1.625;
   }
 

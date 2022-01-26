@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    siteUrl: 'https://answerrocket.com',
     gaTrackingId: null,
     trailingSlash: false,
   },
@@ -25,13 +25,17 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/atoms',
+      '/molecules',
+      '/organisms'
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/atoms', // add trailing slash if enabled above
+      '/molecules',
+      '/organisms'
     ],
     links: [{ text: 'AnswerRocket', link: 'https://answerrocket.com' }],
-    frontline: false,
+    frontline: true,
     ignoreIndex: true,
     title:
       "Components",

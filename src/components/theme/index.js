@@ -8,8 +8,8 @@ const lightTheme = {
   ...baseTheme,
   colors: {
     background: '#fff',
-    heading: '#000',
-    text: '#3B454E',
+    heading: '#111827',
+    text: '#374151',
     preFormattedText: 'rgb(245, 247, 249)',
     link: '#1000EE',
   },

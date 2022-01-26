@@ -22,6 +22,11 @@ export default class HTML extends React.Component {
           ) : null}
           <noscript key="noscript"></noscript>
           {this.props.headComponents}
+
+          <script src="https://cdn.tailwindcss.com"></script>
+          <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

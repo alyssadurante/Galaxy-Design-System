@@ -5,7 +5,7 @@ import CodeBlock from './codeBlock';
 import AnchorTag from './anchor';
 
 const StyledPre = styled('pre')`
-  padding: 16px;
+  overflow-x: scroll;
   background: ${(props) => props.theme.colors.preFormattedText};
 `;
 
