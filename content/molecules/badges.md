@@ -101,3 +101,6 @@ Use this variant (class) for Explore, both **Guided** and **Natural Language** v
   )
 }
 ```
+
+# Component Issues
+Questions about this component? Submit your queries <a href="https://docs.google.com/document/d/1heu6QMCxnE8Hnu1AtyucOzcduhUYSyDmg5SEj05Rqb0/edit">here</a>. 

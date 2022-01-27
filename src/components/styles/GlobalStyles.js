@@ -59,6 +59,10 @@ export const baseStyles = css`
   menu, ol, ul {
     list-style: disc !important;
   }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
   .displayInline {
     display: inline-block;
   }

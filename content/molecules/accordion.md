@@ -53,3 +53,6 @@ Accordions begin by default in the collapsed state with all content panels close
 #### Collapsed
 
 <img src="https://res.cloudinary.com/dgcfg5cwe/image/upload/v1643158257/Accordion_Collapsed_j7wgue.svg"></img>
+
+# Component Issues
+Questions about this component? Submit your queries <a href="https://docs.google.com/document/d/1heu6QMCxnE8Hnu1AtyucOzcduhUYSyDmg5SEj05Rqb0/edit">here</a>. 
